@@ -1,0 +1,16 @@
+# Debugging Log Template – Question 2
+
+Fill this in based on your actual development and testing. Do not claim an error occurred unless it did.
+
+| Date | Commit / stage | Issue or test | Action taken | Result |
+|---|---|---|---|---|
+| | Initial program | | | |
+| | Dataset | | | |
+| | Mid-square function | | | |
+| | Hash table | | | |
+| | Separate chaining | | | |
+| | Final testing | | | |
+
+## Example issue to investigate (only record if you actually test it)
+
+If an implementation overwrites an existing value when two keys map to the same index, a collision can cause data loss. Separate chaining fixes this by storing all keys for an index in a list.

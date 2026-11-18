@@ -1,0 +1,36 @@
+# Suggested Git workflow – make six genuine commits
+
+Run these commands from this project directory, making the described change before each commit.
+
+```bash
+git init
+
+# After creating the initial source file:
+git add main.cpp
+git commit -m "Add initial C++ project"
+
+# After adding/verifying the personalized dataset:
+git add main.cpp
+git commit -m "Add personalized 20-value dataset"
+
+# After implementing the mid-square function:
+git add main.cpp
+git commit -m "Implement mid-square hash function"
+
+# After adding the table structure:
+git add main.cpp
+git commit -m "Create hash table structure"
+
+# After implementing collision handling:
+git add main.cpp
+git commit -m "Implement separate chaining"
+
+# After testing and updating documentation:
+git add .
+git commit -m "Test and document final hash table"
+
+# Show commit history:
+git log --oneline --stat
+```
+
+Important: These are milestone suggestions. Make actual incremental changes and commits so the history accurately reflects your work.
